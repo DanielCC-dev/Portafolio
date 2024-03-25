@@ -21,6 +21,9 @@ body {
     font-weight: 200;
     min-height: 100vh;
 }
+a{
+    text-decoration: none;
+}
 
 #cabecera {
     padding: 2rem 2rem;
@@ -223,15 +226,28 @@ body {
 }
 
 #habilidades i{
-    font-size: 6rem;
+    font-size: 3rem;
     padding: 25px 25px;
     background-color: transparent;
+}
+
+#cajita{
+    border: 3px solid #0082fb;
+    border-color: #0082fb;
+    margin-bottom: 10px;
+    border-radius: 18px;
+    padding: 15px;
 }
 
 #habilidades h2 {
     color: #fff;
     font-size: 3rem;
     font-weight: 500;
+}
+#habilidades h3 {
+    color: #0082fb;
+    font-size: 2rem;
+    font-weight: 400;
 }
 
 #proyectos h2{
