@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: "Pridi";
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #0b0a1f;
+    color: #0082fb;
+    font-family: "Pridi", serif;
+    font-weight: 200;
+}
+
+body {
+    font-family: "Pridi", serif;
+    font-weight: 200;
+    min-height: 100vh;
+}
+
+#cabecera {
+    padding: 2rem 2rem;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    backdrop-filter: blur(10px); 
+    background-color: rgba(11, 10, 31, 0.8);
+}
+
+#cabecera a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s ease;
+    background-color: transparent;
+}
+
+#cabecera i{
+    color: #fff;
+    font-size: 2rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#cabecera i:hover{
+    color: #0082fb;
+}
+
+#cabecera a:hover {
+    text-decoration: none;
+    color: #0082fb;
+}
+
+#cabecera li {
+    padding: 5px 15px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#inicio {
+    background-color: #0b0a1f;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    color: #fff;
+}
+
+.info h2 {
+    margin-bottom: 20px;
+    font-size: 4rem;
+    font-weight: 500;
+} 
+
+.info h3 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.info p {
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.marked {
+    color: #0082fb;
+}
+
+#contacto {
+    background-color: #0b0a1f;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.CVbtn.btn-primary {
+    background-color: transparent;
+    color: #fff;
+}
+
+.CVbtn.btn-primary:hover {
+    background-color: #0082fb;
+}
+
+.info i {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.info i:hover {
+    color: #0082fb;
+}
+
+#iconos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contacto input {
+    background-color: transparent !important;
+    color: #fff;
+    border-color: #0082fb;
+}
+
+#contacto textarea {
+    background-color: transparent !important;
+    color: #fff;
+    border-color: #0082fb;
+}
+
+#contacto input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#sobremi .card {
+    position: relative;
+    background: rgba(11, 10, 31, 1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#sobremi .card::before {
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%);
+    background: radial-gradient(var(--clr), transparent,
+            transparent);
+    width: 400px;
+    height: 400px;
+    opacity: 0;
+    transition: 0.5s, top 0s, left 0s;
+}
+
+#sobremi .card:hover::before {
+    opacity: 1;
+}
+
+#sobremi .card::after {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    border-radius: 18px;
+    background: rgba(11, 10, 31, 0.75);
+}
+
+#sobremi .card h2 {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#contacto h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#sobremi .card p {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#sobremi .card span {
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+}
+
+#sobremi {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #0b0a1f;
+}
+
+.brillo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#habilidades{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #0b0a1f;
+}
+
+#habilidades i{
+    font-size: 6rem;
+    padding: 25px 25px;
+    background-color: transparent;
+}
+
+#habilidades h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#proyectos h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#proyectos h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#proyectos {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #0b0a1f;
+}
+
+#proyectos .card{
+    background-color: #0b0a1f;
+}
+
+#piepagina{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: #0b0a1f;
+}
+
+#piepagina i{
+    font-size: 2rem;
+    padding-right: 20px;
+}
+
+#piepagina i:hover{
+    color: #0082fb;
+}  
+
+#proyectos p{
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#proyectos i{
+    font-size: 2rem;
+    color: #fff;
+}
+
+#proyectos img:hover{
+    opacity:  .7;
+}
