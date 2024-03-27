@@ -113,6 +113,7 @@ a{
 
 .CVbtn.btn-primary:hover {
     background-color: #0082fb;
+    /* box-shadow: 0 0 8px #0082fb; */
 }
 
 .info i {
@@ -231,14 +232,6 @@ a{
     background-color: transparent;
 }
 
-#cajita{
-    border: 3px solid #0082fb;
-    border-color: #0082fb;
-    margin-bottom: 10px;
-    border-radius: 18px;
-    padding: 15px;
-}
-
 #habilidades h2 {
     color: #fff;
     font-size: 3rem;
@@ -298,4 +291,34 @@ a{
 
 #proyectos img:hover{
     opacity:  .7;
+}
+
+@keyframes show{
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+#cajita{
+    border: 3px solid #0082fb;
+    border-color: #0082fb;
+    margin-bottom: 10px;
+    border-radius: 18px;
+    padding: 25px;
+    margin-bottom: 25px;
+    animation: show 1s ease-in-out forwards;
+
+    view-timeline-name: --cajita;
+    view-timeline-axis: bloxk;
+    
+    animation-timeline: --cajita;
+    animation-name: show;
+
+    animation-range: entry 5% cover 50%;
+    animation-fill-mode: both;
 }
