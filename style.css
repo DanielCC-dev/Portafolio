@@ -270,6 +270,10 @@ a{
     }
 }
 
+#inicio a{
+    text-decoration: none;
+}
+
 #cajita{
     border: 3px solid #0082fb;
     border-color: #0082fb;
