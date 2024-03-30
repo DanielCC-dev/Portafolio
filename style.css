@@ -243,25 +243,6 @@ a{
     font-weight: 400;
 }
 
-#proyectos h2{
-    font-size: 3rem;
-    font-weight: 500;
-}
-
-#proyectos h4 {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-#proyectos {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-color: #0b0a1f;
-}
-
-#proyectos .card{
-    background-color: #0b0a1f;
-}
 
 #piepagina{
     padding-top: 5rem;
@@ -277,21 +258,6 @@ a{
 #piepagina i:hover{
     color: #0082fb;
 }  
-
-#proyectos p{
-    margin-bottom: 20px;
-    font-weight: 200;
-    font-size: 20px;
-}
-
-#proyectos i{
-    font-size: 2rem;
-    color: #fff;
-}
-
-#proyectos img:hover{
-    opacity:  .7;
-}
 
 @keyframes show{
     from{
@@ -321,4 +287,78 @@ a{
 
     animation-range: entry 2% cover 35%;
     animation-fill-mode: both;
+}
+
+.cardhab {
+    position: relative;
+    width: auto;
+    height: 200px; 
+    background-color: #0b0a1f;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .cardhab img{
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .cardhab:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px #0082fb;
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #0b0a1f;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .cardhab:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #0082fb;
+    font-weight: 700;
+  }
+  
+  .cardhab:hover img{
+    scale: 0;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.4;
+  }
+  #proyectos h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#proyectos h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#proyectos {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #0b0a1f;
 }
