@@ -367,3 +367,9 @@ a{
     padding-bottom: 5rem;
     background-color: #0b0a1f;
 }
+
+#proyectos i{
+    color: #0082fb;
+    cursor: pointer;
+    font-size: 2rem;
+}

@@ -29,7 +29,7 @@ $(function () {
             $("#downloadLink").attr("href", "cv/Daniel Carbone CV - English.docx");
             $("#contacto h2").text("Contact me!");
             $("#capcha").text("The reCAPTCHA is necessary");
-            $("#proyectos a").text("Check out");
+            $("#proyectos a").attr("title", "Check out");
             localStorage.setItem('inglesActivado', 'true');
             spanish = false;
         } else {
@@ -60,7 +60,7 @@ $(function () {
             $("#downloadLink").attr("href", "cv/Daniel Carbone Campoverde - CV.docx");
             $("#contacto h2").text("Contáctame");
             $("#capcha").text("El reCAPTCHA es necesario");
-            $("#proyectos a").text("Visitar");
+            $("#proyectos a").attr("title", "Visitar");
             localStorage.removeItem('inglesActivado');
             spanish = true;
         }
@@ -96,7 +96,7 @@ $(function () {
             $("#downloadLink").attr("href", "cv/Daniel Carbone CV - English.docx");
             $("#contacto h2").text("Contact me!");
             $("#capcha").text("The reCAPTCHA is necessary");
-            $("#proyectos a").text("Check out");
+            $("#proyectos a").attr("title", "Check out");
             localStorage.setItem('inglesActivado', 'true');
             spanish = false;
         }
