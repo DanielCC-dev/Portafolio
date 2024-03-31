@@ -9,7 +9,7 @@ $(function () {
             $("#conLink").text("Contact me");
             $("#ds1").text("Software developer");
             $("#ds2").text("Web Development and Applications for Windows");
-            $("#inicio p").html("Software Development Student <span class='marked'>focused on learning </span> and applying my knowledge effectively to advance in my professional career.<span class='marked'>Committed to the success of projects</span> and constant acquisition of new knowledge.");            
+            $("#inicio p").html("Software Development Student <span class='marked'>focused on learning </span> and applying my knowledge effectively to advance in my professional career.<span class='marked'>Committed to the success of projects</span> and constant acquisition of new knowledge.");
             $("#proyectos h2").text("My projects");
             $("#proyectos h4").html("Turning <span class='marked'>ideas</span> into <span class='marked'>digital</span> reality");
             $("#proy1").text("This page I created for my friends is designed to manage a record of the football matches we play.");
@@ -17,7 +17,7 @@ $(function () {
             $("#habilidades h2").text("Skills");
             $("#des").text("Download CV");
             $("#sobremi h2").text("About me");
-            $("#sobremi p").html("I'm <span class='marked'> Daniel</span>!! Software Development Student at <span class='marked'> ISIL</span>, I have experience in web development projects, including assignments and projects from my institute. I am committed to the success of the projects in which I participate and constantly seek opportunities for innovation in highly competitive environments.")
+            $("#sobremi p").html("My name is <span class='marked'>Daniel Carbone</span>, a student of Software Development at <span class='marked'>ISIL</span> in Peru. I became interested in programming during school, and now I am happy studying this career. <br> <br> Throughout my journey, I have worked on web development projects, both in jobs and projects at my institute. I am a person committed to the success of the projects I participate in and constantly seek opportunities to demonstrate and improve my skills.");
             $("#piepagina h3").html("Developed by <span class='marked'>DanielC</span>");
             $("#gmailI").attr("placeholder", "mygmail@gmail.com");
             $("#asuntoI").attr("placeholder", "Website");
@@ -29,6 +29,7 @@ $(function () {
             $("#downloadLink").attr("href", "cv/Daniel Carbone CV - English.docx");
             $("#contacto h2").text("Contact me!");
             $("#capcha").text("The reCAPTCHA is necessary");
+            $("#proyectos a").text("Check out");
             localStorage.setItem('inglesActivado', 'true');
             spanish = false;
         } else {
@@ -39,7 +40,7 @@ $(function () {
             $("#conLink").text("Contáctame");
             $("#ds1").text("Desarrollador de Software");
             $("#ds2").text("Desarrollo Web y Aplicaciones para Windows");
-            $("#inicio p").html("Estudiante de Desarrollo de Software <span class='marked'>enfocado en aprender </span> y aplicar mis conocimientosde manera efectiva para avanzar en mi carrera profesional. <span class='marked'>Comprometido con el éxito de los proyectos</span> y la adquisición constante de nuevos conocimientos.");            
+            $("#inicio p").html("Estudiante de Desarrollo de Software <span class='marked'>enfocado en aprender </span> y aplicar mis conocimientosde manera efectiva para avanzar en mi carrera profesional. <span class='marked'>Comprometido con el éxito de los proyectos</span> y la adquisición constante de nuevos conocimientos.");
             $("#proyectos h2").text("Mis proyectos");
             $("#proyectos h4").html("Transformando <span class='marked'>ideas</span> en realidad <span class='marked'>digital</span>");
             $("#proy1").text("Esta página la creé para mis amigos, está diseñada para manejar un registro de los partidos de fútbol que jugamos.");
@@ -47,7 +48,7 @@ $(function () {
             $("#habilidades h2").text("Habilidades");
             $("#des").text("Descargar CV");
             $("#sobremi h2").text("Sobre mí");
-            $("#sobremi p").html("Soy <span class='marked'> Daniel</span>!! Estudiande de Desarrollo de Software en <span class='marked'> ISIL</span>, cuento con experiencia en proyectos de desarrollo web, como trabajos y proyectos de mi instituto. Soy una persona comprometida con el éxito de los proyectos en los que participo y busco constantemente oportunidades de innovación en entornos altamente competitivos.")
+            $("#sobremi p").html("Mi nombre es <span class='marked'> Daniel Carbone</span>, estudiante de Desarrollo de Software en <span class='marked'> ISIL</span> en Perú. Me interesé en la programación desde el colegio y ahora me encuentro feliz estudiando esta carrera.<br><br> Durante mi trayectoria, he trabajado en proyectos de desarrollo web, como trabajos y proyectos de mi instituto. Soy una persona comprometida con el éxito de los proyectos en los que participo y busco constantemente oportunidades para demostrar y mejorar mis habilidades.");
             $("#piepagina h3").html("Desarrollado por <span class='marked'>DanielC</span>");
             $("#gmailI").attr("placeholder", "micorreo@gmail.com");
             $("#asuntoI").attr("placeholder", "Página web");
@@ -59,6 +60,7 @@ $(function () {
             $("#downloadLink").attr("href", "cv/Daniel Carbone Campoverde - CV.docx");
             $("#contacto h2").text("Contáctame");
             $("#capcha").text("El reCAPTCHA es necesario");
+            $("#proyectos a").text("Visitar");
             localStorage.removeItem('inglesActivado');
             spanish = true;
         }
@@ -74,7 +76,7 @@ $(function () {
             $("#conLink").text("Contact me");
             $("#ds1").text("Software developer");
             $("#ds2").text("Web Development and Applications for Windows");
-            $("#inicio p").html("Software Development Student <span class='marked'>focused on learning </span> and applying my knowledge effectively to advance in my professional career.<span class='marked'>Committed to the success of projects</span> and constant acquisition of new knowledge.");            
+            $("#inicio p").html("Software Development Student <span class='marked'>focused on learning </span> and applying my knowledge effectively to advance in my professional career.<span class='marked'>Committed to the success of projects</span> and constant acquisition of new knowledge.");
             $("#proyectos h2").text("My projects");
             $("#proyectos h4").html("Turning <span class='marked'>ideas</span> into <span class='marked'>digital</span> reality");
             $("#proy1").text("This page I created for my friends is designed to manage a record of the football matches we play.");
@@ -82,7 +84,7 @@ $(function () {
             $("#habilidades h2").text("Skills");
             $("#des").text("Download CV");
             $("#sobremi h2").text("About me");
-            $("#sobremi p").html("I'm <span class='marked'> Daniel</span>!! Software Development Student at <span class='marked'> ISIL</span>, I have experience in web development projects, including assignments and projects from my institute. I am committed to the success of the projects in which I participate and constantly seek opportunities for innovation in highly competitive environments.")
+            $("#sobremi p").html("My name is <span class='marked'>Daniel Carbone</span>, a student of Software Development at <span class='marked'>ISIL</span> in Peru. I became interested in programming during school, and now I am happy studying this career. <br> <br> Throughout my journey, I have worked on web development projects, both in jobs and projects at my institute. I am a person committed to the success of the projects I participate in and constantly seek opportunities to demonstrate and improve my skills.");
             $("#piepagina h3").html("Developed by <span class='marked'>DanielC</span>");
             $("#gmailI").attr("placeholder", "mygmail@gmail.com");
             $("#asuntoI").attr("placeholder", "Website");
@@ -94,6 +96,7 @@ $(function () {
             $("#downloadLink").attr("href", "cv/Daniel Carbone CV - English.docx");
             $("#contacto h2").text("Contact me!");
             $("#capcha").text("The reCAPTCHA is necessary");
+            $("#proyectos a").text("Check out");
             localStorage.setItem('inglesActivado', 'true');
             spanish = false;
         }
