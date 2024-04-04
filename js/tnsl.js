@@ -14,6 +14,7 @@ $(function () {
             $("#proyectos h4").html("Turning <span class='marked'>ideas</span> into <span class='marked'>digital</span> reality");
             $("#proy1").text("This page I created for my friends is designed to manage a record of the football matches we play.");
             $("#proy2").text("This is a website developed in my Web Development 1 course.");
+            $("#proy3").text("Developed with Angular, this is a secure password generator website.");
             $("#habilidades h2").text("Skills");
             $("#des").text("Download CV");
             $("#sobremi h2").text("About me");
@@ -45,6 +46,7 @@ $(function () {
             $("#proyectos h4").html("Transformando <span class='marked'>ideas</span> en realidad <span class='marked'>digital</span>");
             $("#proy1").text("Esta página la creé para mis amigos, está diseñada para manejar un registro de los partidos de fútbol que jugamos.");
             $("#proy2").text("Esta es una página web desarrollada en mi curso de Desarrollo Web 1.");
+            $("#proy3").text("Creada con Angular, esta página es un generador de contraseñas seguras.");
             $("#habilidades h2").text("Habilidades");
             $("#des").text("Descargar CV");
             $("#sobremi h2").text("Sobre mí");
@@ -81,6 +83,7 @@ $(function () {
             $("#proyectos h4").html("Turning <span class='marked'>ideas</span> into <span class='marked'>digital</span> reality");
             $("#proy1").text("This page I created for my friends is designed to manage a record of the football matches we play.");
             $("#proy2").text("This is a website developed in my Web Development 1 course.");
+            $("#proy3").text("Developed with Angular, this is a secure password generator website.");
             $("#habilidades h2").text("Skills");
             $("#des").text("Download CV");
             $("#sobremi h2").text("About me");
