@@ -70,6 +70,22 @@ a{
     padding-bottom: 5rem;
 }
 
+#otros-proyectos {
+    background-color: #0b0a1f;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#otros-proyectos h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#otros-proyectos h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -292,6 +308,14 @@ a{
     animation-range: entry 2% cover 35%;
     animation-fill-mode: both;
 }
+
+.cardno {
+    background-color: #0b0a1f;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
 
 .cardhab {
     position: relative;
